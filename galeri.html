@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - IMTEK</title>
+    <link rel="stylesheet" href="galeri.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="images/images.jpg" alt="Logo Himpunan" class="logo-himpunan">
+                    <img src="images/logo-kampus.png" alt="Logo Kampus" class="logo-kampus">
+                </div>
+                <h1 class="main-title">GALERI</h1>
+                <p class="subtitle">Ikatan Mahasiswa Teknik Kimia Polimer</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-menu">
+                <a href="index.html" class="nav-item"><i class="fas fa-home"></i> Beranda</a>
+                <a href="index.html#tentang" class="nav-item"><i class="fas fa-info-circle"></i> Tentang Kami</a>
+                <a href="galeri.html" class="nav-item active"><i class="fas fa-images"></i> Galeri</a>
+                <a href="kegiatan.html" class="nav-item"><i class="fas fa-calendar-alt"></i> Kegiatan</a>
+                <a href="struktur.html" class="nav-item"><i class="fas fa-users"></i> Pengurus</a>
+                <a href="matkul.html" class="nav-item"><i class="fas fa-book"></i> Mata Kuliah</a>
+                <a href="perpustakaan.html" class="nav-item"><i class="fas fa-book-reader"></i> Perpustakaan</a>
+                <a href="index.html#kontak" class="nav-item"><i class="fas fa-phone"></i> Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-camera-retro"></i> Dokumentasi Kegiatan</h2>
+                    <p>Kumpulan foto dan momen berharga dari berbagai kegiatan IMTEK</p>
+                </div>
+                <div class="section-content">
+                    <!-- Gallery Filter -->
+                    <div class="gallery-filter">
+                        <button class="filter-btn active" data-filter="all">Semua</button>
+                        <button class="filter-btn" data-filter="seminar">Seminar</button>
+                        <button class="filter-btn" data-filter="olahraga">Olahraga</button>
+                        <button class="filter-btn" data-filter="sosial">Sosial</button>
+                        <button class="filter-btn" data-filter="akademik">Akademik</button>
+                        <button class="filter-btn" data-filter="wisuda">Wisuda</button>
+                    </div>
+
+                    <!-- Gallery Grid -->
+                    <div class="gallery-grid">
+                        <!-- Foto 1 -->
+                        <div class="gallery-item" data-category="seminar">
+                            <div class="gallery-image">
+                                <img src="images/kunjungan-industri1.png" alt="Seminar Nasional 2024">
+                                <div class="gallery-overlay">
+                                    <div class="overlay-content">
+                                        <h3>KITKAT</h3>
+                                        <p>Foto bersama dengan pihak perusahaan.</p>
+                                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Foto 2 -->
+                        <div class="gallery-item" data-category="seminar">
+                            <div class="gallery-image">
+                                <img src="images/fotomubes.png" alt="Seminar Nasional 2024">
+                                <div class="gallery-overlay">
+                                    <div class="overlay-content">
+                                        <h3>MUBES</h3>
+                                        <p>Musyawarah Besar Sebagai Event Tahunan IMTEK</p>
+                                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Foto 3 -->
+                        <div class="gallery-item" data-category="seminar">
+                            <div class="gallery-image">
+                                <img src="images/stubanimtekhimatek.png" alt="Seminar Nasional 2024">
+                                <div class="gallery-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Studi Banding</h3>
+                                        <p>Studi banding IMTEK STMI dan HIMATEK Univ. Bhayangkara guna berbagi pengalaman dan pengetahuan tentang dunia industri.</p>
+                                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Foto 4 -->
+                        <div class="gallery-item" data-category="wisuda">
+                            <div class="gallery-image">
+                                <img src="images/wisudaakt2020.png" alt="Workshop Laboratorium">
+                                <div class="gallery-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Wisuda Angkatan 2020</h3>
+                                        <p>Wisuda TKP Angkatan 2020</p>
+                                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Foto 5 -->
+                        <div class="gallery-item" data-category="sosial">
+                            <div class="gallery-image">
+                                <img src="images/maba.png" alt="sosial">
+                                <div class="gallery-overlay">
+                                    <div class="overlay-content">
+                                        <h3>Mahasiswa Baru Teknik kimia Polimer Angkatan 2025</h3>
+                                        <p>Selamat Datang di TKP & IMTEK dan selamat menempuh jenjang pendidikan tinggi.</p>
+                                        <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    <!-- Load More Button -->
+                    <div class="text-center">
+                        <button class="btn-primary load-more">
+                            <i class="fas fa-sync-alt"></i> Muat Lebih Banyak
+                        </button>
+                    </div>
+
+                    <!-- Gallery Stats -->
+                    <div class="gallery-stats">
+                        <div class="stat-card">
+                            <i class="fas fa-images"></i>
+                            <div class="stat-number">5</div>
+                            <div class="stat-label">Total Foto</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div class="stat-number">N/A</div>
+                            <div class="stat-label">Album</div>
+                        </div>
+                        <div class="stat-card">
+                            <i class="fas fa-users"></i>
+                            <div class="stat-number">N/A</div>
+                            <div class="stat-label">Dilihat</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <img class="lightbox-img" id="lightbox-image" src="" alt="">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-desc"></p>
+            </div>
+            <div class="lightbox-nav">
+                <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="logo-container">
+                    <img src="images/images.jpg" alt="Logo Himpunan" class="logo-himpunan">
+                    <h3>IMTEK</h3>
+                    <p>Ikatan Mahasiswa Teknik Kimia Polimer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu Utama</h4>
+                    <ul>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="kegiatan.html">Kegiatan</a></li>
+                        <li><a href="struktur.html">Struktur Organisasi</a></li>
+                        <li><a href="matkul.html">Mata Kuliah</a></li>
+                        <li><a href="perpustakaan.html">Perpustakaan</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontak Kami</h4>
+                    <p><i class="fas fa-phone"></i> +62 878-1456-1831 or 
+                                        +62 813-8726-9273</p>
+                    <p><i class="fas fa-envelope"></i> imtek.poltekstmi@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Letjen Suprapto No.26, Cemp. Putih Tim., Kec. Cemp. Putih, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10510</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 IMTEK - Ikatan Mahasiswa Teknik Kimia Polimer. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="galeri.js"></script>
+</body>
+</html>

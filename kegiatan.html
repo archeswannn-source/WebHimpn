@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kegiatan - IMTEK</title>
+    <link rel="stylesheet" href="kegiatan.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="images/images.jpg" alt="Logo Himpunan" class="logo-himpunan">
+                    <img src="images/logo-kampus.png" alt="Logo Kampus" class="logo-kampus">
+                </div>
+                <h1 class="main-title">KEGIATAN</h1>
+                <p class="subtitle">Ikatan Mahasiswa Teknik Kimia Polimer</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-menu">
+                <a href="index.html" class="nav-item"><i class="fas fa-home"></i> Beranda</a>
+                <a href="index.html#tentang" class="nav-item"><i class="fas fa-info-circle"></i> Tentang Kami</a>
+                <a href="galeri.html" class="nav-item"><i class="fas fa-images"></i> Galeri</a>
+                <a href="#" class="nav-item active"><i class="fas fa-calendar-alt"></i> Kegiatan</a>
+                <a href="struktur.html" class="nav-item"><i class="fas fa-users"></i> Pengurus</a>
+                <a href="matkul.html" class="nav-item"><i class="fas fa-book"></i> Mata Kuliah</a>
+                <a href="index.html#perpustakaan" class="nav-item"><i class="fas fa-book-reader"></i> Perpustakaan</a>
+                <a href="index.html#kontak" class="nav-item"><i class="fas fa-phone"></i> Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <section class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-calendar-star"></i> Daftar Kegiatan</h2>
+                    <p>Kegiatan IMTEK</p>
+                </div>
+                <div class="section-content">
+                    <!-- Kategori Kegiatan -->
+                    <div class="category-filter">
+                        <button class="category-btn active" data-category="all">Semua</button>
+                        <button class="category-btn" data-category="akademik">Akademik</button>
+                        <button class="category-btn" data-category="olahraga">Olahraga</button>
+                        <button class="category-btn" data-category="sosial">Sosial</button>
+                        <button class="category-btn" data-category="seminar">Seminar</button>
+                    </div>
+
+                    <!-- Daftar Kegiatan -->
+                    <div class="activities-grid">
+
+                        <!-- Kegiatan 3 -->
+                        <div class="activity-card" data-category="sosial">
+                            <div class="activity-image">
+                                <img src="images/maba.png" alt="Futsal Championship">
+                                <div class="activity-date">
+                                    <span class="day">23</span>
+                                    <span class="month">Agustus</span>
+                                    <span class="year">2025</span>
+                                </div>
+                                <div class="activity-category olahraga">Sosial</div>
+                            </div>
+                            <div class="activity-content">
+                                <h3>Mahasiswa Baru Teknik Kimia Polimer 2025</h3>
+                                <p>Selamat datang adik-adik mahasiswa baru, selamat menempuh jenjang perkuliahan di bidang Teknik Kimia Polimer.</p>
+                                <div class="activity-meta">
+                                    <span><i class="fas fa-clock"></i> 23 Agustus 2025</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Politeknik STMI Jakarta</span>
+                                </div>
+                                <a href="mabadetail.html" class="btn-primary">Lihat Detail</a>
+                            </div>
+                        </div>
+
+                        <!-- Kegiatan 1 -->
+                        <div class="activity-card" data-category="seminar">
+                            <div class="activity-image">
+                                <img src="images/kunjungan-industri1.png" alt="Seminar Nasional">
+                                <div class="activity-date">
+                                    <span class="day">14</span>
+                                    <span class="month">Juli</span>
+                                    <span class="year">2025</span>
+                                </div>
+                                <div class="activity-category seminar">Seminar</div>
+                            </div>
+                            <div class="activity-content">
+                                <h3>KITKAT</h3>
+                                <p>Kunjungan industri ke PT. Eterna Persada Indonesia</p>
+                                <div class="activity-meta">
+                                    <span><i class="fas fa-clock"></i> 14 Juli 2025</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> PT. Eterna Persada Indonesia</span>
+                                </div>
+                                <a href="kitkatdetail.html" class="btn-primary">Lihat Detail</a>
+                            </div>
+                        </div>
+
+                        <!-- Kegiatan 2 -->
+                        <div class="activity-card" data-category="akademik">
+                            <div class="activity-image">
+                                <img src="images/stubanimtekhimatek.png" alt="Futsal Championship">
+                                <div class="activity-date">
+                                    <span class="day">5</span>
+                                    <span class="month">Juli</span>
+                                    <span class="year">2025</span>
+                                </div>
+                                <div class="activity-category olahraga">Akademik</div>
+                            </div>
+                            <div class="activity-content">
+                                <h3>Studi Banding IMTEK x HIMATEK</h3>
+                                <p>Studi banding IMTEK dengan HIMATEK dari Universitas Bhayangkara untuk sharing pengalaman praktik dan akademik.</p>
+                                <div class="activity-meta">
+                                    <span><i class="fas fa-clock"></i> 5 Juli 2025</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Aula Lt.7 Politeknik STMI Jakarta</span>
+                                </div>
+                                <a href="stubandetail.html" class="btn-primary">Lihat Detail</a>
+                            </div>
+                        </div>
+
+                        
+
+                    <!-- Pagination -->
+                    <div class="pagination">
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="logo-container">
+                    <img src="images/images.jpg" alt="Logo Himpunan" class="logo-himpunan">
+                    <h3>IMTEK</h3>
+                    <p>Ikatan Mahasiswa Teknik Kimia Polimer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu Utama</h4>
+                    <ul>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="kegiatan.html">Kegiatan</a></li>
+                        <li><a href="struktur.html">Struktur Organisasi</a></li>
+                        <li><a href="matkul.html">Mata Kuliah</a></li>
+                        <li><a href="perpustakaan.html">Perpustakaan</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Kontak Kami</h4>
+                    <p><i class="fas fa-phone"></i> +62 878-1456-1831 or 
+                                        +62 813-8726-9273</p>
+                    <p><i class="fas fa-envelope"></i> imtek.poltekstmi@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Letjen Suprapto No.26, Cemp. Putih Tim., Kec. Cemp. Putih, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10510</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 IMTEK - Ikatan Mahasiswa Teknik Kimia Polimer. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="kegiatan.js"></script>
+</body>
+</html>
